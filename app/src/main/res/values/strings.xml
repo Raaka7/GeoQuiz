@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GeoQuiz</string>
+
+    <string name="question_1">The capital of France is Paris.</string>
+    <string name="question_2">Australia is located in Europe.</string>
+    <string name="question_3">The Nile River is in Africa.</string>
+    <string name="question_4">Brazil is the largest country in South America.</string>
+    <string name="question_5">Mount Everest is located in India.</string>
+    <string name="question_6">Japan is an island country.</string>
+</resources>

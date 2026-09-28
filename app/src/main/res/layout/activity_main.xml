@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginBottom="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/true_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TRUE" />
+
+        <Button
+            android:id="@+id/false_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="FALSE" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/cheat_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHEAT"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/score_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="30dp" />
+
+</LinearLayout>
